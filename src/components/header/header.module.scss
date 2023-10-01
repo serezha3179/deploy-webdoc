@@ -1,0 +1,27 @@
+.header {
+    padding: 26px 48px;
+    font-size: 30px;
+    border: 1px solid grey;
+    // margin: 10px;
+    background: #6750A4;
+    color: #ffffff;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+// .container {
+//     max-width: 1024px;
+//     margin: 0 auto;
+//     padding: 0 10px;
+//   }  
+.logo {
+    font-size: 36px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.help {
+    font-size: 24px;
+    color: #ffffff;
+}

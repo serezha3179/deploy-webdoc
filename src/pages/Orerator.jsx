@@ -4,13 +4,13 @@ import Title from "../components/title/Title";
 
 function Operator() {
     return ( 
-        <>
+        <div className="page">
         <Header/>
         <main className="main">
         <Title className="subtitle">Оператор</Title>
         </main>
         <Footer/>
-        </>
+        </div>
      );
 }
 

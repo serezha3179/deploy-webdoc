@@ -1,5 +1,5 @@
 // import { Children } from "react";
-import styles from "./title.module.css";
+import styles from "./title.module.scss";
 
 function Title({children,...props}) {
     return ( 

@@ -1,4 +1,4 @@
-import styles from "./text.module.css";
+import styles from "./text.module.scss";
 
 function Text({children}) {
     return ( 

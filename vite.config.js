@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     // open: './index.html',
     open: './',
-    port: 3001,
+    port: 3000,
   },
   css: {
     devSourcemap: true, 

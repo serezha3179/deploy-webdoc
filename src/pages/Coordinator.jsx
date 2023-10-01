@@ -4,13 +4,13 @@ import Title from "../components/title/Title";
 
 function Coordinator() {
     return ( 
-        <>
+        <div className="page">
         <Header/>
         <main className="main">
         <Title className="subtitle">Координатор</Title>
         </main>
         <Footer/>
-        </>
+        </div>
      );
 }
 
