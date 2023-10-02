@@ -72,6 +72,9 @@
     border: none;
     cursor: pointer;
 }
+.input[type="submit"]:hover {
+    outline: 1px solid #6750a4;
+}
 .input[type="submit"]:disabled {
     opacity: 0.5;
 }

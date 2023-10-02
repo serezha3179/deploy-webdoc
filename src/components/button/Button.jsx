@@ -44,7 +44,7 @@ import styles from "./button.module.scss"
 //      }
     return ( 
         // <button onClick={handleOnClick} className={styles.button}>Войти</button>
-        <button {...props} className={styles.button}>Войти</button>
+        <button {...props} className={styles.button}>{props.children}</button>
      );
     }
 

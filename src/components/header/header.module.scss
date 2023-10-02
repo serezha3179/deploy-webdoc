@@ -17,11 +17,18 @@
 //     padding: 0 10px;
 //   }  
 .logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 36px;
+    line-height: normal;
     text-decoration: none;
     color: #ffffff;
 }
 .help {
-    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.27;
     color: #ffffff;
 }

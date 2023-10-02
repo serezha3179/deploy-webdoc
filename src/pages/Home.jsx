@@ -16,19 +16,27 @@ function Home() {
     const navigate = useNavigate()
     let valueString = value.toLowerCase()
     
-     function handleOnClick(e) {
-        e.preventDefault()
-         if(valueString == "оператор") {
-            console.log(value);
-          navigate("/operator");
-         } else if(valueString == "координатор") {
-          navigate("/coordinator");
-         } else if(valueString == "администратор") {
-            setModalwindow(false)
-         } else if(valueString == "главный администратор") {
-          setModalwindow(false)
-         }
-     }
+    //  function handleOnClick(e) {
+    //     e.preventDefault()
+    //      if(valueString == "оператор") {
+    //         console.log(value);
+    //       navigate("/operator");
+    //      } else if(valueString == "координатор") {
+    //       navigate("/coordinator");
+    //      } else if(valueString == "администратор") {
+    //         setModalwindow(false)
+    //      } else if(valueString == "главный администратор") {
+    //       setModalwindow(false)
+    //      }
+    //  }
+
+    function handleOnClick(e) {
+      e.preventDefault()
+       valueString == "оператор" && navigate("/operator");
+       valueString == "координатор" && navigate("/coordinator");
+       valueString == "администратор" && setModalwindow(false)
+       valueString == "главный администратор" && setModalwindow(false)
+   }
   return (
     <div className="page">
       <Header />
@@ -37,7 +45,7 @@ function Home() {
         <Text>% какое-нибудь информационное сообщение %</Text>
         <Title className="subtitle">Я хочу войти в систему как</Title>
         <Select setvalue={setValue} />
-        <Button onClick={handleOnClick}/>
+        <Button onClick={handleOnClick}>Next</Button>
       </main>
       <Footer />
       <Login modal={modalwindow} setModal={setModalwindow} value={valueString}/>
